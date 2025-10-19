@@ -1,0 +1,36 @@
+{
+  "sessionId": "03e4ac3e-9974-4251-b270-be5ae5f9d747",
+  "projectHash": "d1407b0d35eadf8ceb68c634f51bb4de9137ee2b8f0bbbe1bd970fad540c858e",
+  "startTime": "2025-09-27T09:42:34.732Z",
+  "lastUpdated": "2025-09-27T09:42:44.541Z",
+  "messages": [
+    {
+      "id": "93e3d0ca-5325-415f-8738-624f7545ad9c",
+      "timestamp": "2025-09-27T09:42:34.733Z",
+      "type": "user",
+      "content": "lsコマンドを実行して"
+    },
+    {
+      "id": "2c2c6044-1551-4deb-97b2-adfd6dd853e1",
+      "timestamp": "2025-09-27T09:42:44.541Z",
+      "type": "gemini",
+      "content": "GEMINI.md\nindex.html\nnode_modules/\npackage-lock.json\npackage.json\npublic/\nREADME.md\nsrc/\ntailwind.config.js\ntsconfig.app.json\ntsconfig.json\ntsconfig.node.json\nvite.config.ts",
+      "thoughts": [
+        {
+          "subject": "Contemplating Execution Strategy",
+          "description": "I'm focusing on the task, which is listing files. It seems the `run_shell_command` tool is perfect for this, and I plan to use the `ls -F` command. That `-F` flag is great, as it adds type indicators to the output, making things easier to understand.",
+          "timestamp": "2025-09-27T09:42:37.926Z"
+        }
+      ],
+      "tokens": {
+        "input": 5971,
+        "output": 65,
+        "cached": 4308,
+        "thoughts": 0,
+        "tool": 0,
+        "total": 6036
+      },
+      "model": "gemini-2.5-pro"
+    }
+  ]
+}

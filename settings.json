@@ -1,0 +1,41 @@
+{
+  "ide": {
+    "hasSeenNudge": true,
+    "enabled": true
+  },
+  "security": {
+    "auth": {
+      "selectedType": "oauth-personal"
+    }
+  },
+  "general": {
+    "disableAutoUpdate": true
+  },
+  "model": {
+    "name": "gemini-2.5-flash"
+  },
+  "tools": {
+    "shell": {
+      "showColor": true,
+      "enableInteractiveShell": true
+    },
+    "allowed": [
+      "run_shell_command(npm run)",
+      "run_shell_command(ls)",
+      "run_shell_command(mkdir)"
+    ],
+    "exclude": ["run_shell_command(rm)"]
+  },
+  "mcpServers": {
+    "playwright": {
+      "command": "npx",
+      "args": [
+        "@playwright/mcp@latest"
+      ]
+    },
+    "context7": {
+      "command": "npx",
+      "args": ["-y", "@upstash/context7-mcp@latest"]
+    }
+  }
+}

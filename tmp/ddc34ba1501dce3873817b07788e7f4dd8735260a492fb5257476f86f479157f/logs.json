@@ -1,0 +1,23 @@
+[
+  {
+    "sessionId": "a6462be6-1c91-4119-be45-5f477edbce71",
+    "messageId": 0,
+    "type": "user",
+    "message": "このディレクトリをgitで管理したいです。\n\ngit remoteのURL：https://github.com/tttmmm4875/.gemini.git",
+    "timestamp": "2025-10-19T01:38:23.906Z"
+  },
+  {
+    "sessionId": "a6462be6-1c91-4119-be45-5f477edbce71",
+    "messageId": 1,
+    "type": "user",
+    "message": "お願いします",
+    "timestamp": "2025-10-19T01:39:32.054Z"
+  },
+  {
+    "sessionId": "a6462be6-1c91-4119-be45-5f477edbce71",
+    "messageId": 2,
+    "type": "user",
+    "message": "私の方でrm -rf .gitを実行したので続けて",
+    "timestamp": "2025-10-19T01:40:08.209Z"
+  }
+]
